@@ -29,22 +29,44 @@
 //    console.log(calculateTotalPrice(500, 20, 16)); 
 
 
-   let age = prompt("What is your age?", 18);
+  //  let age = prompt("What is your age?", 18);
 
-   let welcome;
-   let add 
+  //  let welcome;
+  //  let add 
    
-   if (age < 18) {
+  //  if (age < 18) {
    
-     welcome = function() {
-       alert("Hello!");
-     };
+  //    welcome = function() {
+  //      alert("Hello!");
+  //    };
    
-   } else {
+  //  } else {
    
-     welcome = function() {
-       alert("shukri!");
-     };
+  //    welcome = function() {
+  //      alert("shukri!");
+  //    };
    
-   }
+  //  }
    
+
+
+
+
+
+  // var 
+  var a = 3
+
+  var a = 4
+
+  var a = 5
+
+  // let 
+
+  let b = 6
+
+  b = 7
+
+  // const 
+
+  const v = 50
+
