@@ -32,6 +32,7 @@
    let age = prompt("What is your age?", 18);
 
    let welcome;
+   let add 
    
    if (age < 18) {
    
@@ -42,7 +43,7 @@
    } else {
    
      welcome = function() {
-       alert("Greetings!");
+       alert("shukri!");
      };
    
    }
