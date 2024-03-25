@@ -53,20 +53,10 @@
 
 
 
-  // var 
-  var a = 3
+days = [ 'Mon', 'Tue', 'Wed']
 
-  var a = 4
+days.splice(days.length, 0, 'Thur', 'Fri', 'Sat')
 
-  var a = 5
+days.splice(2, 1, 'Wednesday' )
 
-  // let 
-
-  let b = 6
-
-  b = 7
-
-  // const 
-
-  const v = 50
-
+console.log(days);
