@@ -53,10 +53,30 @@
 
 
 
-days = [ 'Mon', 'Tue', 'Wed']
+// days = [ 'Mon', 'Tue', 'Wed']
 
-days.splice(days.length, 0, 'Thur', 'Fri', 'Sat')
+// days.splice(days.length, 0, 'Thur', 'Fri', 'Sat')
 
-days.splice(2, 1, 'Wednesday' )
+// days.splice(2, 1, 'Wednesday' )
 
-console.log(days);
+// console.log(days);
+
+
+
+function fizzBuzz(num){
+
+  if(num%2 == 0 && num%5 == 0){
+    return 'Fizz & Buzz together'
+  }
+  else if(num%2 == 0){
+    return 'Fizz'
+  }
+  else if(num%5 == 0){
+    return 'Buzz'
+  }
+  else{
+    return 'FizzBuzz'
+  }
+}
+
+console.log(fizzBuzz(34)); 
