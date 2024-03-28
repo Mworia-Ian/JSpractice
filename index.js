@@ -143,13 +143,14 @@
 
 // Call back functions
 
-function funcNameA(func, funb){
-    func()
-    funb()
+function funcNameA(){
+    
     console.log('I am function A');
 }
 
-function funcNameB(){
+function funcNameB(funcA, funcC){
+  funcA()
+  funcC()
     console.log('I am inside Function B');
 }
 
@@ -157,5 +158,30 @@ function funcNameC(){
     console.log('I am inside Function C');
 }
 
-funcNameA(funcNameC, funcNameB)
+funcNameB(funcNameA, funcNameC)
 
+
+
+// let myArr =  /^[a-zA-Z]+$/ ;
+
+// function isItLetter(char){
+//     const  chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+//     const charsArr = chars.split("")
+
+
+//     if(charsArr.includes(char)){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+    
+// }
+
+// console.log(isItLetter()); 
+
+
+// function isItLetter(character) {
+//     return /[a-zA-Z]/.test(character);
+//   }
+//   console.log(isItLetter('3'))
